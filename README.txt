@@ -29,4 +29,13 @@ YOLOv8 significantly outperformed YOLOv3 due to anchor-free architecture, advanc
 - Loss functions: CIoU, DFL, VFL
 - Validation after each epoch to prevent overfitting
 
-## 📁 Repository Structure
+## 📦 Dataset
+This project uses the [Vehicle Dataset for YOLO](https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo), which contains 3000 annotated images across 6 vehicle classes:
+- Car
+- Motorbike
+- Bus
+- Truck
+- Van
+- Threewheel
+
+The dataset is split into 2100 training images and 900 validation images, formatted for YOLO-based object detection tasks.
